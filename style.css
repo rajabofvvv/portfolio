@@ -1,0 +1,203 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Poppins&display=swap");
+/* line 3, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* line 9, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.bg-img {
+  background: url(https://raw.githubusercontent.com/Jhonierpc/WebDevelopment/master/Transparent%20Login%20Form%20UI/img/background.jpg);
+  height: 150vh;
+  background-size: cover;
+  background-position: center; }
+
+/* line 16, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.bg-img::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 150%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4); }
+
+/* line 26, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 999;
+  width: 370px;
+  text-align: center;
+  padding: 60px 32px;
+  background: rgba(255, 255, 255, 0.04);
+  -webkit-box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: -1px 4px 28px 0px rgba(0, 0, 0, 0.75); }
+
+/* line 41, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.content header {
+  color: #fff;
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0 0 35px 0;
+  font-family: "Poppins", sans-serif; }
+
+/* line 49, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.field {
+  position: relative;
+  height: 45px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: rgba(255, 255, 255, 0.94); }
+
+/* line 57, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.field span {
+  color: #222;
+  width: 40px;
+  line-height: 45px;
+  padding: 0 10px; }
+
+/* line 64, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.field input {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #222;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif; }
+
+/* line 75, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.show {
+  position: absolute;
+  right: 20px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #222;
+  cursor: pointer;
+  display: none;
+  font-family: "Montserrat", sans-serif; }
+
+/* line 86, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.password:valid ~ .show {
+  display: block; }
+
+/* line 90, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.space {
+  margin-top: 16px; }
+
+/* line 94, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.pass {
+  text-align: left;
+  margin: 10px 0; }
+
+/* line 99, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.pass a {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none; }
+
+/* line 105, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.pass:hover a {
+  text-decoration: underline; }
+
+/* line 109, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+input[type="submit"] {
+  background: #3498db;
+  border: 1px solid #2691d9;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif; }
+
+/* line 120, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+input[type="submit"]:hover {
+  background: #2691d9; }
+
+/* line 124, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.login {
+  color: #fff;
+  margin: 20px 0;
+  font-family: "Poppins", sans-serif; }
+
+/* line 130, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+  color: #fff;
+  margin: 0 0 20px 0; }
+
+/* line 137, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.facebook,
+.instagram {
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  margin-top: 10px;
+  margin-left: 10px; }
+
+/* line 146, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.facebook {
+  margin-left: 0px;
+  background: #4267b2;
+  border: 1px solid #3e61a8; }
+
+/* line 152, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.instagram {
+  background: #e1306c;
+  border: 1px solid #df2060; }
+
+/* line 157, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.facebook:hover {
+  background: #3e61a8; }
+
+/* line 161, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.instagram:hover {
+  background: #df2060; }
+
+/* line 165, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.link i {
+  font-size: 17px; }
+
+/* line 169, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.link span {
+  font-size: 15px;
+  margin-left: 8px;
+  letter-spacing: normal;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif; }
+
+/* line 177, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.signup {
+  color: #fff;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif; }
+
+/* line 183, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.signup a {
+  color: #3498db;
+  text-decoration: none; }
+
+/* line 188, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+.signup a:hover {
+  text-decoration: underline; }
+
+/* line 192, ../../../../Desktop/Новая папка (2)/css/scss/style.scss */
+:root {
+  --fluid-type-min: 2rem;
+  --fluid-type-max: 10rem;
+  --fluid-type-target: 5vw;
+  --color: #dbe3ea; }
